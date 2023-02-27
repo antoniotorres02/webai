@@ -77,6 +77,38 @@ button {
     margin-left: 15px;
 }
 
+.botones_juego {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        flex-direction: row;
+    }
+.botones_juego  button {
+        width: 33.33%;
+        margin:3px;
+
+    }
+article {
+    border:1px solid white;
+    margin-top: 60px;
+    text-align: center;
+    background-color: #CDCDCD;
+   }
+.noticia {
+    margin-bottom: 60px;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
+    background-color: white;
+   }
+#noticia1{
+    margin-top: 20px;
+    background-color: #CDCDCD;
+    width: 430px;
+    height: 260px;
+}
+
+
 footer {
     background-color: #CDCDCD;
     height: 40px;
