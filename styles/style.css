@@ -1,7 +1,7 @@
 html, body {  
     margin:0px;  
     height:100%;  
-  }
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -81,6 +81,7 @@ button {
     margin-top: 20px;
     margin-right: 30px;
     margin-left: 15px;
+    border-radius: 20px;
 }
 
 
@@ -182,4 +183,75 @@ footer {
 
 #footer_text {
     margin-top: 5px;
+}
+
+
+/*Estilo de la página de login*/
+#user_data{
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.sign_buttons {
+    margin-top: 30px;
+}
+
+.sign_buttons button {
+    margin-right: 40px;
+}
+
+#profile_panel {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile_frame {
+    background-color: #CDCDCD;
+    display: flex;
+    height: 80%;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#biography {
+    position: absolute;
+    background-color: white;
+    border-radius: 20px;
+    width: 45%;
+    height: 35%;
+    bottom: 15%;
+    left: 33%;
+    transform: translate(-50%, 0%);    
+}
+
+#profile_image {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    top: 12%;
+    left: 34%;
+    transform: translate(-50%, 0%);    
+}
+
+#settings {
+    position: absolute;
+    background-color: white;
+    border-radius: 20px;
+    width: 25%;
+    height: 70%;
+    bottom: 15%;
+    left: 76%;
+    transform: translate(-50%, 0%);    
+    text-align: center;
 }
