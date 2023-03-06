@@ -233,8 +233,8 @@ footer {
     border-radius: 20px;
     width: 45%;
     height: 35%;
-    bottom: 15%;
-    left: 33%;
+    bottom: 5%;
+    left: 25%;
     transform: translate(-50%, 0%);    
 }
 
@@ -245,7 +245,7 @@ footer {
     width: 250px;
     height: 250px;
     top: 12%;
-    left: 34%;
+    left: 30%;
     transform: translate(-50%, 0%);    
 }
 
@@ -254,8 +254,8 @@ footer {
     background-color: white;
     border-radius: 20px;
     width: 25%;
-    height: 70%;
-    bottom: 15%;
+    height: 71%;
+    bottom: 13.5%;
     left: 76%;
     transform: translate(-50%, 0%);    
     text-align: center;
