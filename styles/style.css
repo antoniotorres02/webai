@@ -52,9 +52,10 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 4%;
-    min-width: 750px;
-    height: 400px;
+    gap: 3%;
+    min-width: 768px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .boton_circular {
@@ -63,6 +64,25 @@ button {
     border-radius: 50%;
     background-color: #CDCDCD;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #botonera{
+        margin-top: 50px;
+        display: block;
+        width: 90%;
+        min-width: 0px;
+        margin-bottom: 20px;
+    }
+
+    .boton_circular {
+        height: 200px;
+        width: 100%;
+        border-radius: 5px;
+        background-color: #CDCDCD;
+        margin: 10px;
+    }
+  }
 
 /*Scroll horizontal del home*/
 #scroll_horizontal_area {
