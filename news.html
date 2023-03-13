@@ -8,19 +8,27 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+    
     <header class="header">
-        <a href="index.html"><img src="/img/home_icon.png" alt="home_icon"/></a>
-        <button id="search_button">
-            <img src="/img/icons8-búsqueda-24.png" alt="">
+        <button id="home_button" onclick="location.href='index.html'">
+            <img src="/img/home_icon.png" alt="perfil">
+        </button>
+        <button id="user_button" onclick="location.href='profile.html'">
+            <img src="/img/icons8-usuario-24.png" alt="perfil">
         </button>
         <button id="search_button">
-            <img src="/img/icons8-búsqueda-24.png" alt="">
+            <img src="/img/icons8-búsqueda-24.png" alt="buscar">
         </button>
     </header>
-    <a href="new.html"><button id="noticia1">
-        <p> NEW 1 </p>
-    </button>
-   
+    <div class="grid_news">
+        <button class="new1" onclick="location.href='new.html'"><h1>NEW1</h1></button>
+        <button class="new2" onclick="location.href='new.html'"><h1>NEW2</h1></button>
+        <button class="new3" onclick="location.href='new.html'"><h1>NEW3</h1></button>
+        <button class="new4" onclick="location.href='new.html'"><h1>NEW4</h1></button>
+        <button class="new5" onclick="location.href='new.html'"><h1>NEW5</h1></button>
+        <button class="new6" onclick="location.href='new.html'"><h1>NEW6</h1></button>             
+    </div>
+    
     <footer><h2 id="footer_text">FOOTER</h2></footer>
 </body>
 </html>

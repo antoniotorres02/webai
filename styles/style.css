@@ -1,22 +1,28 @@
+html, body {  
+    margin:0px;  
+    height:100%;  
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    margin-bottom: 40px; /*Pertenece al footer*/
-    margin-top: 40px; /*Pertenece al header*/
+    height: 100%;
 }
 
 header {
     background-color: #CDCDCD;
     height: 40px;
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 100%;
+
 }
 
 button {
     border: 0px;
 }
 
+/*Barra de navegación*/
 #home_button {
     width: 5%;
     background-color: transparent;
@@ -42,13 +48,15 @@ button {
 
 }
 
+/*Botonera principal de index.html*/
 #botonera {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 4%;
-    min-width: 750px;
-    height: 400px;
+    gap: 3%;
+    min-width: 768px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .boton_circular {
@@ -58,12 +66,31 @@ button {
     background-color: #CDCDCD;
 }
 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #botonera{
+        margin-top: 50px;
+        display: block;
+        width: 90%;
+        min-width: 0px;
+        margin-bottom: 20px;
+    }
+
+    .boton_circular {
+        height: 200px;
+        width: 100%;
+        border-radius: 5px;
+        background-color: #CDCDCD;
+        margin: 10px;
+    }
+  }
+
+/*Scroll horizontal del home*/
 #scroll_horizontal_area {
     height: 300px;
     background-color: #CDCDCD;
     overflow-x: scroll;
     white-space: nowrap;
-    gap: 4%;
 }
 
 .scroll_card {
@@ -75,48 +102,357 @@ button {
     margin-top: 20px;
     margin-right: 30px;
     margin-left: 15px;
+    border-radius: 20px;
 }
 
-.botones_juego {
-        display: flex;
-        height: 100%;
-        width: 100%;
-        flex-direction: row;
-    }
-.botones_juego  button {
-        width: 33.33%;
-        margin:3px;
 
+/*Estilo de la pagina try.html*/
+#botonera_juego {
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+#botonera_juego button {
+    height: 90%;
+    width: 33%;
     }
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+    #botonera_juego {
+        flex-direction: column;
+    }
+    
+    #botonera_juego button {
+        height: 33%;
+        width: 90%;
+    }
+}
+    
+/*Estilo de la página de noticias*/
+#frame_noticias {
+    height: 100%;
+    margin-top: 70px;
+    overflow-y: scroll;
+}
+
+#frame_noticias button {
+    height: 300px;
+    width: 400px;
+    margin: 40px;
+    background-color: #CDCDCD;
+    border-radius: 20px;
+
+}
+
+/*Estilo de las noticias*/
 article {
     border:1px solid white;
-    margin-top: 60px;
+    margin: 60px;
     text-align: center;
     background-color: #CDCDCD;
+    border-radius: 20px;
+    height: 70%;
    }
+
 .noticia {
-    margin-bottom: 60px;
-    margin-right: 30px;
-    margin-left: 30px;
-    text-align: center;
+    display: flex;
+    margin: 20px;
+    width: auto;
+    height: 50%;
+    text-align: justify;
+    align-items: center;
     background-color: white;
+    border-radius: 20px;
    }
+
 #noticia1{
     margin-top: 20px;
     background-color: #CDCDCD;
     width: 430px;
     height: 260px;
 }
+@media only screen and (max-width: 768px) {
+  article {
+    margin: 20px;
+    height: auto;
+    margin-top: 50px;
+    
+  }
+  
+  #noticia1 {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+
+  }
+}
 
 
+/*Estilo del game.html*/
+
+#score {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#human_message {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+#pantalla_juego {
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+button.boton_opcion {
+    height: 80%;
+    width: 44%;
+    border-radius: 50px;
+    background-color: #CDCDCD;
+    }
+
+#score {
+    position: fixed;
+    top: 40px;
+    right: 100px;
+}
+
+#human_message {
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/*Estilo del footer*/
 footer {
     background-color: #CDCDCD;
     height: 40px;
     bottom: 0;
-    position: absolute;
+    position: fixed;
     width: 100%;
 }
 
 #footer_text {
     margin-top: 5px;
 }
+
+
+/*Estilo de la página de login*/
+#user_data{
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.sign_buttons {
+    margin-top: 30px;
+}
+
+.sign_buttons button {
+    margin-right: 40px;
+}
+
+/*Estilo de profile*/
+
+#profile_panel {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile_frame {
+    background-color: #CDCDCD;
+    display: flex;
+    height: 80%;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#biography {
+    position: absolute;
+    background-color: white;
+    border-radius: 20px;
+    width: 45%;
+    height: 35%;
+    bottom: 5%;
+    left: 25%;
+    transform: translate(-50%, 0%);    
+}
+
+#profile_image {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    top: 12%;
+    left: 30%;
+    transform: translate(-50%, 0%);    
+}
+
+#settings {
+    position: absolute;
+    background-color: white;
+    border-radius: 20px;
+    width: 25%;
+    height: 71%;
+    bottom: 13.5%;
+    left: 76%;
+    transform: translate(-50%, 0%);    
+    text-align: center;
+}
+
+/*Estilo de news.html*/
+.grid_news{
+    display: grid;
+    margin-top: 50px;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-areas:
+        "new1 new2 new3"
+        "new4 new4 new3"
+        "new5 new5 new3"
+        "new6 new6 new6";
+    grid-gap: 10px; 
+}
+
+.new1 {
+  grid-area: new1;
+  border-radius: 20px;
+  min-width: 200px;
+
+  
+}
+
+.new2 {
+  grid-area: new2;
+  border-radius: 20px;
+  min-width: 200px;
+  
+}
+
+.new3 {
+  grid-area: new3;
+  border-radius: 20px;
+  grid-row: span 3;
+  min-width: 200px;
+}
+
+.new4 {
+  grid-area: new4;
+  border-radius: 20px;
+  min-width: 200px;
+ 
+}
+.new5 {
+    grid-area: new5;
+    border-radius: 20px;
+    min-width: 200px; 
+}
+.new6 {
+    grid-area: new6;
+    border-radius: 20px;
+    min-width: 200px; 
+}
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+  .grid_news {
+    display: grid;
+    margin-top: 50px;
+    text-align: center;
+    grid-template-areas:
+        "new1"
+        "new2"
+        "new3"
+        "new4"
+        "new5"
+        "new6";
+    grid-template-columns: 1fr;
+    grid-gap: 10px; 
+  }
+  
+  .new1 {
+    grid-area: new1;
+    border-radius: 20px;
+    min-width: 200px;
+  }
+
+  .new2 {
+    grid-area: new2;
+    border-radius: 20px;
+    min-width: 200px;
+  }
+
+  .new3 {
+    grid-area: new3;
+    border-radius: 20px;
+    min-width: 200px;
+  }
+
+  .new4 {
+    grid-area: new4;
+    border-radius: 20px;
+    min-width: 200px;
+  }
+
+  .new5 {
+    grid-area: new5;
+    border-radius: 20px;
+    min-width: 200px;
+  }
+  .new6 {
+    grid-area: new5;
+    border-radius: 20px;
+    min-width: 200px;
+  }
+}
+
+
+/*Estilo de who.html*/
+#botonera_personas {
+    text-align: center;
+    margin-top: 80px;
+    width: 100%;
+    height: 100%;
+}
+
+#botonera_personas button {
+    margin: 30px;
+}
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+    #botonera_personas {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #botonera_personas button {
+        width: 80%;
+        height: 30%;
+        margin: 20px;
+    }
+}
+
+
