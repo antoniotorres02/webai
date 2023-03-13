@@ -1,0 +1,72 @@
+#score {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  #human_message {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  
+  #pantalla_juego {
+      width: 100%;
+      height: 100%;
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+  }
+  
+  button.boton_opcion {
+      height: 80%;
+      width: 44%;
+      border-radius: 50px;
+      background-color: #CDCDCD;
+      }
+  
+  #score {
+      position: fixed;
+      top: 40px;
+      right: 100px;
+  }
+  
+  #human_message {
+      position: fixed;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+  
+
+
+
+#pantalla_juego {
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+button.boton_opcion {
+    height: 80%;
+    width: 44%;
+    border-radius: 50px;
+    background-color: #CDCDCD;
+}
+
+#score {
+    position: fixed;
+    top: 40px;
+    right: 100px;
+}
+
+#human_message {
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
