@@ -103,3 +103,54 @@
     min-width: 200px;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .grid_news {
+    display: grid;
+    margin-top: 50px;
+    text-align: center;
+    grid-template-areas:
+        "new1 new2"
+        "new3 new3"
+        "new4 new4"
+        "new5 new5"
+        "new6 new6";
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px; 
+  }
+  
+  .new1 {
+    grid-area: new1;
+    border-radius: 20px;
+    min-width: 200px;
+  }
+
+  .new2 {
+    grid-area: new2;
+    border-radius: 20px;
+    min-width: 200px;
+  }
+
+  .new3 {
+    grid-area: new3;
+    border-radius: 20px;
+    min-width: 200px;
+  }
+
+  .new4 {
+    grid-area: new4;
+    border-radius: 20px;
+    min-width: 200px;
+  }
+
+  .new5 {
+    grid-area: new5;
+    border-radius: 20px;
+    min-width: 200px;
+  }
+  .new6 {
+    grid-area: new6;
+    border-radius: 20px;
+    min-width: 200px;
+  }
+}
