@@ -1,66 +1,61 @@
 #botonera {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 3%;
-    min-width: 768px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3%;
+  min-width: 768px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
-
 
 /*Media query para smartphone*/
 @media only screen and (max-width: 768px) {
-    #botonera{
-        margin-top: 50px;
-        display: block;
-        width: 100%;
-        min-width: 0px;
-        margin-bottom: 20px;
-    }
-
-    .boton_circular {
-        height: 200px;
-        width: 100%;
-        border-radius: 5px;
-        background-color: #CDCDCD;
-        margin: 10px;
-    }
+  #botonera {
+    margin-top: 50px;
+    display: block;
+    width: 100%;
+    min-width: 0px;
+    margin-bottom: 20px;
   }
+
+  .boton_circular {
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #cdcdcd;
+    margin: 10px;
+  }
+}
 
 /*Media query para tablet*/
 @media (min-width: 768px) and (max-width: 1024px) {
+  #botonera {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
 
-    #botonera {
-        display: block;
-        width: 100%;
-        text-align: center;
-    }
-
-    .boton_circular {
-        margin:5%;
-    }
-    
+  .boton_circular {
+    margin: 5%;
+  }
 }
-
 
 /*Scroll horizontal del home*/
 #scroll_horizontal_area {
-    height: 300px;
-    background-color: #CDCDCD;
-    overflow-x: scroll;
-    white-space: nowrap;
+  height: 300px;
+  background-color: #cdcdcd;
+  overflow-x: scroll;
+  white-space: nowrap;
 }
 
 .scroll_card {
-    width: 300px;
-    height: 250px;
-    display: inline-block;
-    border: 0;
-    background-color: white;
-    margin-top: 20px;
-    margin-right: 30px;
-    margin-left: 15px;
-    border-radius: 20px;
+  width: 300px;
+  height: 250px;
+  display: inline-block;
+  border: 0;
+  background-color: white;
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-left: 15px;
+  border-radius: 20px;
 }
-

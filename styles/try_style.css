@@ -1,26 +1,25 @@
 #botonera_juego {
-    width: 100%;
-    height: 100%;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
 }
 
 #botonera_juego button {
-    height: 90%;
-    width: 33%;
-    }
-    
+  height: 90%;
+  width: 33%;
+}
 
 /* For mobile phones: */
 @media only screen and (max-width: 768px) {
-    #botonera_juego {
-        flex-direction: column;
-    }
-    
-    #botonera_juego button {
-        height: 33%;
-        width: 90%;
-    }
+  #botonera_juego {
+    flex-direction: column;
+  }
+
+  #botonera_juego button {
+    height: 33%;
+    width: 90%;
+  }
 }

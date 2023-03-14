@@ -1,85 +1,83 @@
-html, body {  
-    margin:0px;  
-    height:100%;  
+html,
+body {
+  margin: 0px;
+  height: 100%;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  height: 100%;
 }
 
 header {
-    background-color: #CDCDCD;
-    height: 40px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-
+  background-color: #cdcdcd;
+  height: 40px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 button {
-    border: 0px;
+  border: 0px;
 }
 
 /*Barra de navegación*/
 #home_button {
-    width: 5%;
-    background-color: transparent;
-    float: left;
-    vertical-align: middle;
-    margin-top: 3px;
+  width: 5%;
+  background-color: transparent;
+  float: left;
+  vertical-align: middle;
+  margin-top: 3px;
 }
 
 #search_button {
-    width: 5%;
-    background-color: transparent;
-    float: right;
-    vertical-align: middle;
-    margin-top: 6px;
+  width: 5%;
+  background-color: transparent;
+  float: right;
+  vertical-align: middle;
+  margin-top: 6px;
 }
 
 #user_button {
-    width: 5%;
-    background-color: transparent;
-    float: right;
-    vertical-align: middle;
-    margin-top: 6px;
-
+  width: 5%;
+  background-color: transparent;
+  float: right;
+  vertical-align: middle;
+  margin-top: 6px;
 }
-    
+
 /*Estilo de la página de noticias*/
 #frame_noticias {
-    height: 100%;
-    margin-top: 70px;
-    overflow-y: scroll;
+  height: 100%;
+  margin-top: 70px;
+  overflow-y: scroll;
 }
 
 #frame_noticias button {
-    height: 300px;
-    width: 400px;
-    margin: 40px;
-    background-color: #CDCDCD;
-    border-radius: 20px;
-
+  height: 300px;
+  width: 400px;
+  margin: 40px;
+  background-color: #cdcdcd;
+  border-radius: 20px;
 }
 
 /*Estilo del footer*/
 footer {
-    background-color: #CDCDCD;
-    height: 40px;
-    bottom: 0;
-    position: fixed;
-    width: 100%;
+  background-color: #cdcdcd;
+  height: 40px;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
 }
 
 #footer_text {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 .boton_circular {
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
-    background-color: #CDCDCD;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: #cdcdcd;
 }
