@@ -3,7 +3,6 @@
   align-items: center;
   justify-content: center;
   gap: 3%;
-  min-width: 768px;
   margin-top: 100px;
   margin-bottom: 100px;
 }
@@ -46,6 +45,7 @@
   background-color: #cdcdcd;
   overflow-x: scroll;
   white-space: nowrap;
+  width: 100vw;
 }
 
 .scroll_card {

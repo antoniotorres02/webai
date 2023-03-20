@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="styles/style.css" />
-    <link rel="stylesheet" href="styles/signin_style.css" />
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/signin_style.css" />
+</head>
+
+<body>
+  <main>
     <header class="header">
       <button id="home_button" onclick="location.href='index.html'">
         <img src="/img/home_icon.png" alt="perfil" />
@@ -21,17 +24,21 @@
       </button>
     </header>
     <div id="user_data">
-        <form name="myform" method="get" action="">
-            <p>Username</p>
-            <input type="username" id="user_input" required> </input>
-            <p>Password</p>
-            <input type="password" id="mypassword"  autofocus required> </input>
-            <div class="sign_buttons">
-                <button>Sign Up</button>
-                <button>Welcome</button>
-            </div>
-        </form>
+      <form name="myform" method="get" action="">
+        <p>Username</p>
+        <input type="username" id="user_input" required> </input>
+        <p>Password</p>
+        <input type="password" id="mypassword" autofocus required> </input>
+        <div class="sign_buttons">
+          <button>Sign Up</button>
+          <button>Welcome</button>
+        </div>
+      </form>
     </div>
-    <footer><h2 id="footer_text">FOOTER</h2></footer>
-  </body>
+    <footer>
+      <h2 id="footer_text">FOOTER</h2>
+    </footer>
+  </main>
+</body>
+
 </html>

@@ -1,8 +1,8 @@
 #botonera_personas {
-  text-align: center;
-  margin-top: 80px;
   width: 100%;
-  height: 100%;
+  display: block;
+  height: fit-content;
+  text-align: center;
 }
 
 #botonera_personas button {
@@ -12,14 +12,13 @@
 /* For mobile phones: */
 @media only screen and (max-width: 768px) {
   #botonera_personas {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+
   }
 
   #botonera_personas button {
     width: 80%;
-    height: 30%;
+    height: 200px;
     margin: 20px;
+    border-radius: 60px;
   }
 }
