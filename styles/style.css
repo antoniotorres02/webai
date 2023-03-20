@@ -11,45 +11,43 @@ body {
 }
 
 header {
-    background-color: #CDCDCD;
-    height: 40px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 1fr;
+  background-color: #cdcdcd;
+  height: 40px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr;
 }
 
 header button {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 #home_button {
-    grid-row: 1;
-    grid-column: 1;
+  grid-row: 1;
+  grid-column: 1;
 }
 
 #search_button {
-    grid-row: 1;
-    grid-column: 11;
+  grid-row: 1;
+  grid-column: 11;
 }
 
 #user_button {
-    grid-row: 1;
-    grid-column: 12;
+  grid-row: 1;
+  grid-column: 12;
 }
-    
 
 button {
-    border: 1px;
-    transition: background-color 0.40s, border 0.40s;
+  border: 1px;
+  transition: background-color 0.4s, border 0.4s, transform 0.4s;
 }
 
-
 button:hover {
-    border: 1px solid black;
-    background-color: transparent;
+  border: 1px solid black;
+  background-color: transparent;
 }
 /*Barra de navegación*/
 
