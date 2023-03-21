@@ -18,7 +18,7 @@
     margin-bottom: 20px;
   }
 
-  .boton_circular {
+  .circular_boton {
     height: 200px;
     width: 100%;
     border-radius: 5px;
@@ -27,7 +27,7 @@
   }
 }
 
-.boton_circular:hover {
+.circular_boton:hover {
   transform: scale(1.1);
 }
 
@@ -39,7 +39,7 @@
     text-align: center;
   }
 
-  .boton_circular {
+  .circular_boton {
     margin: 5%;
   }
 }

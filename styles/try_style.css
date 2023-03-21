@@ -1,4 +1,4 @@
-#botonera_juego {
+#game_selector {
   width: 100%;
   height: 100%;
   display: flex;
@@ -7,18 +7,18 @@
   gap: 8px;
 }
 
-#botonera_juego button {
+#game_selector button {
   height: 90%;
   width: 33%;
 }
 
 /* For mobile phones: */
 @media only screen and (max-width: 768px) {
-  #botonera_juego {
+  #game_selector {
     flex-direction: column;
   }
 
-  #botonera_juego button {
+  #game_selector button {
     height: 33%;
     width: 90%;
   }
