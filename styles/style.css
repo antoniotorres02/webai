@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-color: #cdcdcd;
+  background-color: #1f1719;
   height: 40px;
   position: fixed;
   top: 0;
@@ -68,7 +68,7 @@ button:hover {
 
 /*Estilo del footer*/
 footer {
-  background-color: #cdcdcd;
+  background-color: #1f1719;
   height: 40px;
   bottom: 0;
   position: fixed;
@@ -83,5 +83,5 @@ footer {
   height: 250px;
   width: 250px;
   border-radius: 50%;
-  background-color: #cdcdcd;
+  background-color: #1f1719;
 }
