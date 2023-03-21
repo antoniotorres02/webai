@@ -1,0 +1,26 @@
+{
+  "news1": {
+    "title": "Título de la noticia 1",
+    "content": "Contenido de la noticia 1"
+  },
+  "news2": {
+    "title": "Título de la noticia 2",
+    "content": "Contenido de la noticia 2"
+  },
+  "news3": {
+    "title": "Título de la noticia 3",
+    "content": "Contenido de la noticia 3"
+  },
+  "news4": {
+    "title": "Título de la noticia 4",
+    "content": "Contenido de la noticia 4"
+  },
+  "news5": {
+    "title": "Título de la noticia 5",
+    "content": "Contenido de la noticia 5"
+  },
+  "news6": {
+    "title": "Título de la noticia 6",
+    "content": "Contenido de la noticia 6"
+  }
+}
