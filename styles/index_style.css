@@ -1,4 +1,4 @@
-#botonera {
+#button_screen {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,7 +17,7 @@
     margin-bottom: 20px;
   }
 
-  .circular_boton {
+  .circular_button {
     height: 200px;
     width: 100%;
     border-radius: 5px;
@@ -25,15 +25,15 @@
   }
 }
 
-.circular_boton:hover {
+.circular_button:hover {
   transform: scale(1.1);
 }
 
-.boton_circular:hover h1 {
+.circular_button:hover h1 {
   color: #1f1719;
 }
 
-.boton_circular h1 {
+.circular_button h1 {
   font-family: Microsoft YaHei UI;
   font-size: 4em;
   color: #ffffff;
@@ -41,13 +41,13 @@
 
 /*Media query para tablet*/
 @media (min-width: 768px) and (max-width: 1024px) {
-  #botonera {
+  #button_screen {
     display: block;
     width: 100%;
     text-align: center;
   }
 
-  .circular_boton {
+  .circular_button {
     margin: 5%;
   }
 }
