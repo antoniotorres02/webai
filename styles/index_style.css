@@ -17,13 +17,26 @@
     margin-bottom: 20px;
   }
 
-  .boton_circular {
+  .circular_boton {
     height: 200px;
     width: 100%;
     border-radius: 5px;
-    background-color: #cdcdcd;
     margin: 10px;
   }
+}
+
+.circular_boton:hover {
+  transform: scale(1.1);
+}
+
+.boton_circular:hover h1 {
+  color: #1f1719;
+}
+
+.boton_circular h1 {
+  font-family: Microsoft YaHei UI;
+  font-size: 4em;
+  color: #ffffff;
 }
 
 /*Media query para tablet*/
@@ -34,7 +47,7 @@
     text-align: center;
   }
 
-  .boton_circular {
+  .circular_boton {
     margin: 5%;
   }
 }
