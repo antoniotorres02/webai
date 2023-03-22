@@ -1,8 +1,10 @@
+let port = 3002;
+
 document.addEventListener("DOMContentLoaded", () => {
   const searchParams = new URLSearchParams(window.location.search);
   const id = searchParams.get("id");
 
-  fetch("http://localhost:3000/news")
+  fetch("http://localhost:" + port + "/news")
     .then(response => response.json())
     .then(data => {
       console.log(data);
@@ -17,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-fetch("http://localhost:3000/news")
+fetch("http://localhost:" + port + "/news")
   .then(response => response.json())
   .then(data => {
     // Iteramos sobre cada objeto del JSON

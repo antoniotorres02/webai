@@ -29,6 +29,7 @@ header {
 footer {
   grid-row: 3;
   margin: 0;
+  bottom: 0;
 }
 
 header button {
