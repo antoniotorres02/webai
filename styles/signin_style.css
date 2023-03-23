@@ -1,7 +1,7 @@
 #user_data {
   top: 50%;
   left: 50%;
-  position: fixed;
+  position: absolute;
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
@@ -13,6 +13,7 @@
   border-radius: 5px;
   padding-left: 10px;
   transition: border-color 0.35s ease-in-out;
+  
 }
 
 #user_data input:focus {
@@ -22,6 +23,7 @@
 
 .sign_buttons {
   margin-top: 30px;
+  position: relative;
 }
 
 .sign_buttons button {
@@ -32,6 +34,7 @@
   color: rgb(73, 73, 73);
   transition: border 0.35s, color 0.35s;
   background-color: rgb(236, 236, 236);
+
 }
 
 .sign_buttons button:hover {
@@ -39,3 +42,20 @@
   padding: 6px;
   border: 1px solid rgb(0, 0, 0);
 }
+#welcome_message{
+  margin-top: 20px;
+}
+#error_message{
+  margin-top: 220px;
+  position: absolute;
+}
+
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+

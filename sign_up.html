@@ -24,16 +24,16 @@
             </button>
         </header>
         <div id="user_data">
-            <form name="myform" method="get" action="">
+            <form name="signup-form">
                 <p>Username</p>
-                <input type="username" id="user_input" required> </input>
+                <input type="text" id="username" name="username" required>
                 <p>Email</p>
-                <input type="email" required> </input>
+                <input type="email" id="email" name="email" required>
                 <p>Password</p>
-                <input type="password" autofocus required> </input>
+                <input type="password" id="password" name="password" required>
                 <div class="sign_buttons">
                     <button>Accept Terms</button>
-                    <button>Join</button>
+                    <button type="submit" id="join-button">Join</button>
                 </div>
             </form>
         </div>
@@ -41,7 +41,8 @@
             <h2 id="footer_text">FOOTER</h2>
         </footer>
     </main>
-    <script src="scripts/template_loader.js"></script>
+    <script src="./scripts/template_loader.js"></script>
+    <script src="./scripts/sing_up.js"></script>
 </body>
 
 </html>
