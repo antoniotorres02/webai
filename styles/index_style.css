@@ -2,28 +2,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   gap: 3%;
   margin-top: 100px;
   margin-bottom: 100px;
-}
-
-/*Media query para smartphone*/
-@media only screen and (max-width: 768px) {
-  #button_screen {
-    display: block;
-    margin-top: 10px;
-    width: 100%;
-    min-width: 0px;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-
-  .circular_button {
-    height: 200px;
-    width: 95%;
-    border-radius: 5px;
-    margin: 10px;
-  }
 }
 
 .circular_button {
@@ -32,6 +14,32 @@
   border-radius: 50%;
   background-color: #1f1719;
   transition: 0.5s transform;
+}
+
+/*Media query para smartphone*/
+@media only screen and (max-width: 768px) {
+  #button_screen {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .circular_button {
+    justify-self: center;
+    width: 85vw;
+    border-radius: 5px;
+    background-color: #1f1719;
+  }
+
+  .circular_button:hover {
+    transform: scale(1.01) !important;
+  }
+
+  #slogan {
+    visibility: hidden;
+  }
+  
 }
 
 .circular_button:hover {
@@ -62,3 +70,10 @@
   }
 }
 
+#slogan {
+  text-align: center;
+  color: #ffffff;
+  font-style: bold;
+  font-family: monospace;
+  margin: 50px;
+}
