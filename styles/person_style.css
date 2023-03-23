@@ -1,0 +1,110 @@
+
+.grid_person {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    background-color: #1f1719;
+    grid-template-areas:
+      "person_image container1 container1"
+      "container2 container3 container4"
+      "container2 container3 container4"
+      "container2 container3 container4"
+      "container2 container3 container4"
+      "container2 container3 container4";
+      border-radius: 20px;
+    grid-gap: 10px;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .person_image {
+    grid-area: person_image;
+    background-color: white;
+    border-radius: 50%;
+    min-width: 200px;
+    width: 250px;
+    height: 250px;
+    justify-self: center;
+    margin-top: 20px;
+    
+  }
+  .container1 {
+    grid-area: container1;
+    background-color: white;
+    border-radius: 20px;
+    min-width: 200px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+  
+  }
+  
+  .container2 {
+    grid-area: container2;
+    background-color: white;
+    border-radius: 20px;
+    min-width: 200px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .container3 {
+    grid-area: container3;
+    background-color: white;
+    border-radius: 20px;
+    min-width: 200px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .container4 {
+    grid-area: container4;
+    background-color: white;
+    border-radius: 20px;
+    min-width: 200px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /*Media query para smartphone*/
+  @media only screen and (max-width: 768px) {
+  .grid_person {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-areas:
+  "person_image person_image"
+  "container1 container1"
+  "container2 container2"
+  "container3 container3"
+  "container4 container4";
+  }
+  .container1 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .container2 {
+    margin-right: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .container3 {
+    margin-right: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .container4 {
+    margin-right: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  }
