@@ -18,12 +18,15 @@ document.addEventListener("DOMContentLoaded", () => {
     .catch(error => {
       console.error(error);
     })
+  
   fetch(`http://localhost:${port}/news`)
     .then(response => response.json())
     .then(data => {
       data.forEach(newsItem => {
         const button = document.querySelector(`[data-id="${newsItem.id}"]`);
         const h1 = button.querySelector('h1');
+        const img = button.querySelector('img');
+        img.src = newsItem.img;
         h1.innerText = newsItem.title;
       });
     })
