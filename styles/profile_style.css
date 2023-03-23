@@ -1,75 +1,74 @@
-#profile_panel {
-  display: flex;
-  height: 100%;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-}
 
-#profile_frame {
-  background-color: #cdcdcd;
-  display: flex;
+.grid_profile {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  background-color: #1f1719;
+  grid-template-areas:
+    "profile_image settings"
+    "biography settings"
+    "biography settings"
+    "biography settings";
+    border-radius: 20px;
+  grid-gap: 10px;
+  width: 80%;
   height: 80%;
-  width: 90%;
-  justify-content: center;
-  align-items: center;
-  border-radius: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-#biography {
-  position: absolute;
+
+.biography {
+  grid-area: biography;
   background-color: white;
   border-radius: 20px;
-  width: 45%;
-  height: 35%;
-  bottom: 13%;
-  left: 30%;
-  transform: translate(-50%, 0%);
+  min-width: 200px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+
 }
 
-#profile_image {
-  position: absolute;
+.profile_image {
+  grid-area: profile_image;
   background-color: white;
   border-radius: 50%;
+  min-width: 200px;
   width: 250px;
   height: 250px;
-  top: 12%;
-  left: 30%;
-  transform: translate(-50%, 0%);
+  justify-self: center;
+  margin-top: 20px;
+  
 }
 
-#settings {
-  position: absolute;
+.settings {
+  grid-area: settings;
   background-color: white;
   border-radius: 20px;
-  width: 25%;
-  height: 71%;
-  bottom: 13.5%;
-  left: 76%;
-  transform: translate(-50%, 0%);
-  text-align: center;
+  min-width: 200px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 /*Media query para smartphone*/
 @media only screen and (max-width: 768px) {
-  #settings {
-    position: absolute;
-    background-color: white;
-    border-radius: 20px;
-    width: 35%;
-    height: 35%;
-    bottom: 13%;
-    left: 75%;
-    transform: translate(-50%, 0%);
-  }
-  #profile_image {
-    position: absolute;
-    background-color: white;
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
-    top: 14%;
-    left: 50%;
-    transform: translate(-50%, 0%);
-  }
+.grid_profile {
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+grid-template-areas:
+"profile_image profile_image"
+"biography biography"
+"settings settings";
+}
+.biography {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.settings {
+  margin-right: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 }
