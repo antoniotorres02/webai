@@ -1,14 +1,19 @@
 document.getElementById("join-button").addEventListener("click", function(event) {
     event.preventDefault(); 
-
     const formData = new FormData(document.querySelector('form[name="signup-form"]')); 
-
+    const username = formData.get("username");
+    const email = formData.get("email");
+    const password = formData.get("password");
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+        alert("Ingrese un correo electrónico válido.");
+        return;
+    }
     const newUser = {
-        "username": formData.get("username"),
-        "email": formData.get("email"),
-        "password": formData.get("password")
+        "username": username,
+        "email": email,
+        "password": password
     };
-
     fetch("http://localhost:3002/users")
         .then(response => response.json())
         .then(users => {
@@ -16,7 +21,6 @@ document.getElementById("join-button").addEventListener("click", function(event)
             if (existingUser) {
                 alert("El usuario o email ya existe.");
             } else {
-                // Enviar solicitud POST para crear el nuevo usuario
                 fetch("http://localhost:3002/users", { 
                     method: "POST",
                     headers: {
@@ -24,18 +28,12 @@ document.getElementById("join-button").addEventListener("click", function(event)
                     },
                     body: JSON.stringify(newUser)
                 })
-                .then(response => {
-                    // Almacenar mensaje de bienvenida en localStorage
-                    const welcomeMessage = `Bienvenido, ${newUser.username}!`;
-                    localStorage.setItem("welcomeMessage", welcomeMessage);
-
-                    // Redirigir al usuario a la página de inicio
+                .then(response => {                    
                     window.location.href = "index.html";
                 })
-                .catch(error => console.error(error));
+                .catch(error => console.error(error)); 
             }
         })
         .catch(error => console.error(error));
 });
-
 
