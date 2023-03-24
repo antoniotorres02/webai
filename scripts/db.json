@@ -101,31 +101,58 @@
       "id": 1,
       "username": "antonio",
       "email": "",
-      "password": "antonio"
+      "password": "antonio",
+      "biography": ""
     },
     {
       "id": 2,
       "username": "andres",
       "email": "",
-      "password": "andres"
+      "password": "andres",
+      "biography": ""
     },
     {
       "id": 3,
       "username": "maria",
       "email": "",
-      "password": "maria"
+      "password": "maria",
+      "biography": ""
     },
     {
-      "username": "MeryListanfrax#16352",
-      "email": "r.b.glozano@hotmail.com",
+      "username": "maria12",
+      "email": "mariaa",
       "password": "a",
       "id": 4
     },
     {
-      "username": "MeryListanfrax#163524",
-      "email": "r.b.glozaano@hotmail.com",
-      "password": "sda",
+      "username": "maria1",
+      "email": "maria@gmail.com",
+      "password": "3",
       "id": 5
+    },
+    {
+      "username": "mery",
+      "email": "maria@gmail.es",
+      "password": "a",
+      "id": 6
+    },
+    {
+      "username": "MeryListanfrax#1635",
+      "email": "mariapascuallozano@gmail.com",
+      "password": "a",
+      "id": 7
+    },
+    {
+      "username": "MeryListanfrax#16352",
+      "email": "mar2iapascuallozano@gmail.com",
+      "password": "a",
+      "id": 8
+    },
+    {
+      "username": "merr",
+      "email": "mer@gmail.com",
+      "password": "a",
+      "id": 9
     }
   ]
 }

@@ -52,6 +52,11 @@
   margin-bottom: 20px;
 }
 
+.hide {
+  display: none;
+}
+
+
 /*Media query para smartphone*/
 @media only screen and (max-width: 768px) {
 .grid_profile {
@@ -71,4 +76,10 @@ grid-template-areas:
   margin-left: 20px;
   margin-right: 20px;
 }
+}
+.save-button {
+  display: none;
+  margin-top: 10px;
+  margin: 0 auto;
+  
 }

@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="styles/style.css" />
   <link rel="stylesheet" href="styles/profile_style.css" />
 </head>
-
 <body>
   <main>
     <header class="header">
@@ -17,14 +16,17 @@
     <div class="grid_profile">
       <div class="profile_image"></div>
       <article class="biography">
-        <p>Biography</p>
+        <h5 contenteditable="false">Biography</h5>
+        <p contenteditable="true">Introduce tu biografía aquí...</p>
+        <button id="saveButton" class="save-button" >Guardar</button>
       </article>
-      <div class="settings">Settings</div>
+      <div class="settings">
+      </div>
     </div>
     <footer>
     </footer>
   </main>
   <script src="scripts/template_loader.js"></script>
+  <script src="./scripts/profile.js"></script>
 </body>
-
 </html>
