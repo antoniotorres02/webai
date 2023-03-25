@@ -1,25 +1,32 @@
 article {
-  border: 1px solid white;
+  border: 3px solid #1f1719;
   margin: 60px;
-  text-align: justify;
-  background-color: #cdcdcd;
+  text-align: center;
+  background-color: #382a2de8;
   border-radius: 20px;
-  padding: 20px;
+  padding: 50px;
   font-family: serif;
 }
 
 article h1 {
   text-align: center;
+  font-size: 3em;
+  margin-bottom: 60px;
+  color: rgb(255, 255, 255);
+}
+
+article div {
+  text-align: justify;
+  font-size: 1.5em;
   margin-bottom: 30px;
+  color: rgba(255, 255, 255, 0.719);
+}
+
+article img {
+  max-width: min(1000px, 100%);
 }
 
 
-#noticia1 {
-  margin-top: 20px;
-  background-color: #cdcdcd;
-  width: 430px;
-  height: 260px;
-}
 @media only screen and (max-width: 768px) {
   article {
     margin: 20px;

@@ -12,6 +12,11 @@
   width: 33%;
   background-color: #1f1719;
   color: #FFFFFF;
+  transition: 0.5s width;
+}
+
+#game_selector button:hover {
+  width: 40%;
 }
 
 /* For mobile phones: */
@@ -23,5 +28,11 @@
   #game_selector button {
     height: 33%;
     width: 90%;
+    transition: 0.5s height, 0s width;
+  }
+
+  #game_selector button:hover {
+    width: 90%;
+    height: 60%;
   }
 }

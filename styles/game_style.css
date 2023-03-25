@@ -17,12 +17,6 @@
   gap: 50px;
 }
 
-button.option_button {
-  height: 80%;
-  width: 44%;
-  border-radius: 50px;
-  background-color: #cdcdcd;
-}
 
 #score {
   position: fixed;
@@ -50,13 +44,25 @@ button.option_button {
   height: 80%;
   width: 44%;
   border-radius: 50px;
-  background-color: #cdcdcd;
+  background-color: #1f1719;
+  transition: 0.5s width, 0.5s height, 0.5s background-color;
+}
+
+button.option_button:hover {
+  height: 90%;
+  width: 50%;
+  background-color: #0e0b0c;
+}
+
+button.option_button h1 {
+  color: white;
 }
 
 #score {
   position: fixed;
   top: 40px;
   right: 100px;
+  color: white;
 }
 
 #human_message {
@@ -64,6 +70,7 @@ button.option_button {
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: white;
 }
 
 /*Media query para tablet y móvil*/

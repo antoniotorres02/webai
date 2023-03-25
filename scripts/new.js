@@ -12,6 +12,8 @@ document.addEventListener("DOMContentLoaded", () => {
       const newsItem = data.find(item => item.id === parseInt(id));
       const titleElement = document.getElementById("news_title");
       const contentElement = document.getElementById("news_content");
+      const imgElement = document.getElementById("news_img");
+      imgElement.src = newsItem.img;
       titleElement.innerText = newsItem.title;
       contentElement.innerText = newsItem.content;
     })
