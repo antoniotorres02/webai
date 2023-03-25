@@ -61,39 +61,39 @@
     },
     {
       "id" : 3,
-      "name" : "DOTCSV",
-      "img": "img/who/dotcsv.jpg",
-      "biography": "DOTCSV es el nombre de un canal de YouTube dedicado a la divulgación de la inteligencia artificial, la tecnología, la ciencia y el futuro. Su creador es Carlos Santana Vega, un ingeniero informático nacido en Las Palmas de Gran Canaria en 1992. Su objetivo es explicar las últimas tendencias en el ámbito de la IA de una manera sencilla y amena para que todo el mundo pueda entenderlas e incluso aprender a programarlas. También tiene cuentas en Twitter y TikTok donde comparte contenido sobre estos temas"
+      "name" : "Javi López",
+      "img": "img/who/javi-lopez.jpg",
+      "biography": "Javi López es un ingeniero informático español especializado en el campo de la inteligencia artificial.  Entre sus proyectos más destacados se encuentran el desarrollo de sistemas de recomendación para empresas, así como la creación de modelos de aprendizaje profundo para el reconocimiento de imágenes. López también es conocido por su trabajo como divulgador y educador en el campo de la inteligencia artificial. Además es uno de los fundadores de la comunidad de código abierto TensorFlow en español"
     },
     {
       "id" : 4,
-      "name" : "DOTCSV",
-      "img": "img/who/dotcsv.jpg",
-      "biography": "DOTCSV es el nombre de un canal de YouTube dedicado a la divulgación de la inteligencia artificial, la tecnología, la ciencia y el futuro. Su creador es Carlos Santana Vega, un ingeniero informático nacido en Las Palmas de Gran Canaria en 1992. Su objetivo es explicar las últimas tendencias en el ámbito de la IA de una manera sencilla y amena para que todo el mundo pueda entenderlas e incluso aprender a programarlas. También tiene cuentas en Twitter y TikTok donde comparte contenido sobre estos temas"
+      "name" : "Nuria Oliver",
+      "img": "img/who/nuria-oliver.jpg",
+      "biography": "Nuria Oliver es una de las referentes más destacadas en el campo de la inteligencia artificial en España. Comenzó su carrera en el campo de la inteligencia artificial en los años 90. Se unió a Microsoft Research en Redmond, Washington, donde trabajó durante 10 años. En 2008, Oliver regresó a España para dirigir el equipo de investigación de Telefonica R&D en Barcelona. En 2011, Oliver fue nombrada Directora Científica en Vodafone, donde dirigió el equipo de investigación y desarrollo en tecnologías móviles y digitales durante varios años. Actualmente es la Directora Científica en DataPop Alliance, una organización sin ánimo de lucro que promueve el uso de los datos para el bien social."
     },
     {
       "id" : 5,
-      "name" : "DOTCSV",
-      "img": "img/who/dotcsv.jpg",
-      "biography": "DOTCSV es el nombre de un canal de YouTube dedicado a la divulgación de la inteligencia artificial, la tecnología, la ciencia y el futuro. Su creador es Carlos Santana Vega, un ingeniero informático nacido en Las Palmas de Gran Canaria en 1992. Su objetivo es explicar las últimas tendencias en el ámbito de la IA de una manera sencilla y amena para que todo el mundo pueda entenderlas e incluso aprender a programarlas. También tiene cuentas en Twitter y TikTok donde comparte contenido sobre estos temas"
+      "name" : "Andrew Ng",
+      "img": "img/who/Andrew-Ng.jpg",
+      "biography": "Andrew Ng es un científico de la computación y empresario nacido en Londres, Reino Unido, en 1976.Ng obtuvo su licenciatura en informática en la Universidad de California, Berkeley, y luego completó su doctorado en informática en la Universidad de Stanford en 2002. En 2011, Ng se unió a Google y cofundó Google Brain, un proyecto de investigación centrado en el desarrollo de algoritmos de aprendizaje profundo. En 2017, Ng fundó la empresa de inteligencia artificial para la salud, deeplearning.ai, y en 2018, fundó Landing AI, una empresa de inteligencia artificial que ayuda a las empresas a implementar tecnologías de inteligencia artificial en sus operaciones."
     },
     {
       "id" : 6,
-      "name" : "DOTCSV",
-      "img": "img/who/dotcsv.jpg",
-      "biography": "DOTCSV es el nombre de un canal de YouTube dedicado a la divulgación de la inteligencia artificial, la tecnología, la ciencia y el futuro. Su creador es Carlos Santana Vega, un ingeniero informático nacido en Las Palmas de Gran Canaria en 1992. Su objetivo es explicar las últimas tendencias en el ámbito de la IA de una manera sencilla y amena para que todo el mundo pueda entenderlas e incluso aprender a programarlas. También tiene cuentas en Twitter y TikTok donde comparte contenido sobre estos temas"
+      "name" : "Yoshua Bengio",
+      "img": "img/who/Yoshua-Bengio.jpg",
+      "biography": "Yoshua Bengio es un científico de la computación e investigador canadiense nacido en 1964. Bengio ha sido reconocido por su contribución al avance del aprendizaje profundo y la inteligencia artificial, y ha recibido varios premios y distinciones, incluyendo el Premio de Aprendizaje de Máquina de la ACM y el Premio Turing, el más alto honor en la informática. Además de su trabajo en la investigación de inteligencia artificial, Bengio es un defensor de la ética y la responsabilidad en el desarrollo de tecnologías de inteligencia artificial"
     },
     {
       "id" : 7,
-      "name" : "DOTCSV",
-      "img": "img/who/dotcsv.jpg",
-      "biography": "DOTCSV es el nombre de un canal de YouTube dedicado a la divulgación de la inteligencia artificial, la tecnología, la ciencia y el futuro. Su creador es Carlos Santana Vega, un ingeniero informático nacido en Las Palmas de Gran Canaria en 1992. Su objetivo es explicar las últimas tendencias en el ámbito de la IA de una manera sencilla y amena para que todo el mundo pueda entenderlas e incluso aprender a programarlas. También tiene cuentas en Twitter y TikTok donde comparte contenido sobre estos temas"
+      "name" : "Fei-Fei Li",
+      "img": "img/who/Fei-Fei-Li.jpg",
+      "biography": "Fei-Fei Li es una investigadora de inteligencia artificial nacida en China y actualmente profesora en la Universidad de Stanford en California. Es conocida por su trabajo en visión por computadora y aprendizaje profundo, y por su papel en la creación del conjunto de datos ImageNet, que ha sido fundamental para el avance del reconocimiento de imágenes por parte de los ordenadores. Además de su trabajo en la investigación de inteligencia artificial, Fei-Fei Li también es una defensora de la inclusión y la diversidad en la tecnología. Es fundadora y presidenta de AI4ALL, una organización sin fines de lucro que busca aumentar la diversidad y la inclusión en el campo de la inteligencia artificial, y también es miembro del Consejo de Tecnología del Foro Económico Mundial."
     },
     {
       "id" : 8,
-      "name" : "DOTCSV",
-      "img": "img/who/dotcsv.jpg",
-      "biography": "DOTCSV es el nombre de un canal de YouTube dedicado a la divulgación de la inteligencia artificial, la tecnología, la ciencia y el futuro. Su creador es Carlos Santana Vega, un ingeniero informático nacido en Las Palmas de Gran Canaria en 1992. Su objetivo es explicar las últimas tendencias en el ámbito de la IA de una manera sencilla y amena para que todo el mundo pueda entenderlas e incluso aprender a programarlas. También tiene cuentas en Twitter y TikTok donde comparte contenido sobre estos temas"
+      "name" : "Ian Goodfellow",
+      "img": "img/who/Ian-Goodfellow.jpg",
+      "biography": "Ian Goodfellow es un investigador de inteligencia artificial canadiense, actualmente director de aprendizaje automático en Apple. Es conocido por su trabajo en el desarrollo de las redes generativas adversarias (GAN), una técnica de aprendizaje profundo utilizada para generar imágenes realistas a partir de datos de entrenamiento. Goodfellow también ha contribuido a otras áreas de la inteligencia artificial, incluyendo la clasificación de imágenes y el reconocimiento de voz, y ha recibido varios premios por su trabajo, incluyendo el premio Pioneers of AI de la Asociación Internacional de Aprendizaje Automático. "
     }
   ],
   "users": [
@@ -117,42 +117,6 @@
       "email": "",
       "password": "maria",
       "biography": ""
-    },
-    {
-      "username": "maria12",
-      "email": "mariaa",
-      "password": "a",
-      "id": 4
-    },
-    {
-      "username": "maria1",
-      "email": "maria@gmail.com",
-      "password": "3",
-      "id": 5
-    },
-    {
-      "username": "mery",
-      "email": "maria@gmail.es",
-      "password": "a",
-      "id": 6
-    },
-    {
-      "username": "MeryListanfrax#1635",
-      "email": "mariapascuallozano@gmail.com",
-      "password": "a",
-      "id": 7
-    },
-    {
-      "username": "MeryListanfrax#16352",
-      "email": "mar2iapascuallozano@gmail.com",
-      "password": "a",
-      "id": 8
-    },
-    {
-      "username": "merr",
-      "email": "mer@gmail.com",
-      "password": "a",
-      "id": 9
     }
   ]
 }
