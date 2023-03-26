@@ -1,115 +1,125 @@
-
 .grid_person {
-    display: grid;
-    text-align: center;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    background-color: #1f1719;
-    grid-template-areas:
-      "person_image container1 container1"
-      "container2 container3 container4"
-      "container2 container3 container4"
-      "container2 container3 container4"
-      "container2 container3 container4"
-      "container2 container3 container4";
-      border-radius: 20px;
-    grid-gap: 10px;
-    width: 80%;
-    min-height: 80%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  background-color: #1f1719;
+  grid-template-areas:
+    "person_image container1 container1"
+    "container2 container3 container4"
+    "container2 container3 container4"
+    "container2 container3 container4"
+    "container2 container3 container4"
+    "container2 container3 container4";
+  border-radius: 20px;
+  grid-gap: 10px;
+  width: 80%;
+  min-height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  grid-auto-rows: auto;
+  max-height: 87vh; 
+  overflow: auto; 
+}
 
-  .grid_person div {
-    background-color: #88757a77;
-    font-size: 1.25em;
-    color: rgba(245, 245, 245, 0.808);
-  }
-  
-  #person_image {
-    grid-area: person_image;
-    object-fit: cover;
-    border-radius: 50%;
-    min-width: 200px;
-    width: 300px;
-    height: 300px;
-    justify-self: center;
-    margin-top: 20px;
-    
-  }
+.grid_person div {
+  background-color: #88757a77;
+  font-size: 1.25em;
+  color: rgba(245, 245, 245, 0.808);
+}
 
-  #container1 {
-    grid-area: container1;
-    border-radius: 20px;
-    min-width: 200px;
-    margin-top: 20px;
-    margin-right: 20px;
-    padding: 20px;
-    margin-bottom: 20px;
-  
-  }
-  
-  #container2 {
-    grid-area: container2;
-    border-radius: 20px;
-    min-width: 200px;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-    padding: 20px;
-    margin-bottom: 20px;
-  }
+#person_image {
+  grid-area: person_image;
+  object-fit: cover;
+  border-radius: 50%;
+  min-width: 200px;
+  width: 300px;
+  height: 300px;
+  justify-self: center;
+  margin-top: 20px;
+}
 
-  #container3 {
-    grid-area: container3;
-    border-radius: 20px;
-    min-width: 200px;
-    margin-top: 20px;
-    margin-right: 20px;
-    padding: 20px;
-    margin-bottom: 20px;
-  }
+#container1 {
+  grid-area: container1;
+  border-radius: 20px;
+  min-width: 200px;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  overflow: scroll;
+}
 
-  #container4 {
-    grid-area: container4;
-    border-radius: 20px;
-    min-width: 200px;
-    margin-top: 20px;
-    margin-right: 20px;
-    padding: 20px;
-    margin-bottom: 20px;
-  }
+#container2 {
+  grid-area: container2;
+  border-radius: 20px;
+  min-width: 200px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  overflow: scroll;
+}
+
+#container3 {
+  grid-area: container3;
+  border-radius: 20px;
+  min-width: 200px;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  overflow: scroll;
+}
+
+#container4 {
+  grid-area: container4;
+  border-radius: 20px;
+  min-width: 200px;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  overflow: scroll;
+}
+
   
   /*Media query para tablet y smartphone*/
   @media only screen and (max-width: 1024px) {
   .grid_person {
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-template-areas:
   "person_image person_image"
   "container1 container1"
   "container2 container2"
   "container3 container3"
   "container4 container4";
+  width: 90%;
   }
   #container1 {
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    overflow: scroll;
   }
   #container2 {
     margin-right: 0;
     margin-left: 20px;
     margin-right: 20px;
+    overflow: scroll;
   }
   #container3 {
     margin-right: 0;
     margin-left: 20px;
     margin-right: 20px;
+    overflow: scroll;
   }
   #container4 {
     margin-right: 0;
     margin-left: 20px;
     margin-right: 20px;
+    overflow: scroll;
   }
   }
