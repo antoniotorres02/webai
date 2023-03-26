@@ -8,13 +8,17 @@
 }
 
 #user_data input {
-  border-color: rgb(163, 163, 163);
+  border-color: #1f1719;
   border-style: solid;
   border-radius: 5px;
   padding-left: 10px;
-  transition: border-color 0.35s ease-in-out;
-  
+  transition: border-color 0.35s ;
+  padding: 5px;
 }
+
+#user_data p {
+  color: white;
+} 
 
 #user_data input:focus {
   border-color: rgb(100, 100, 100);
@@ -29,19 +33,18 @@
 .sign_buttons button {
   margin-right: 40px;
   padding: 6px;
-  border: 1px solid rgb(163, 163, 163);
   border-radius: 5px;
   color: rgb(73, 73, 73);
-  transition: border 0.35s, color 0.35s;
-  background-color: rgb(236, 236, 236);
-
+  transition: color 0.35s;
+  background-color: #1f1719;
 }
 
 .sign_buttons button:hover {
   margin-right: 40px;
   padding: 6px;
-  border: 1px solid rgb(0, 0, 0);
+  color: white;
 }
+
 #welcome_message{
   margin-top: 20px;
 }
